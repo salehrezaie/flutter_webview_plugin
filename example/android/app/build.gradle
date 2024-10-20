@@ -15,7 +15,7 @@ apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 
 android {
-    namespace "androidx.core.content.FileProvider"
+    namespace "com.flutter_webview_plugin"
     compileSdkVersion 28
 
     lintOptions {
